@@ -6,7 +6,6 @@ Author: Richard Clark - http://richclarkdesign.com
 Twitter: @rich_clark
 */
 
-/* New styling is below the existing styling */
 html,
 body,
 div,
@@ -167,75 +166,4 @@ hr {
 input,
 select {
   vertical-align: middle;
-}
-
-/* ------New styling that I added based on requirements -------*/
-
-body {
-  font-family: "Lucida Grande", sans-serif;
-  background: black;
-  color: white;
-}
-
-h1 {
-  font-size: 64px;
-  text-align: center;
-}
-
-h2 {
-  font-size: 32px;
-  text-shadow: 4px 4px 2px black;
-}
-
-p {
-  font-size: 16px;
-  padding-top: 15px;
-}
-
-img {
-  display: block;
-  justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  width: 550px;
-  height: auto;
-}
-
-div {
-  padding: 30px;
-  min-height: 100px;
-}
-
-#red {
-  background: red;
-  text-align: right;
-}
-
-#blue {
-  background: blue;
-  text-align: left;
-}
-
-#yellow {
-  background: yellow;
-  text-align: right;
-}
-
-#yellow h2,
-#yellow p {
-  color: black;
-}
-
-#yellow > h2 {
-  text-shadow: 4px 4px 2px grey;
-}
-
-#green {
-  background: green;
-  text-align: left;
-}
-
-footer {
-  text-align: center;
-  padding-bottom: 15px;
 }
